@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+ font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: large;
+text-align:center;
+word-wrap: 50cm;
+}
+.header{
+    display: -ms-flexbox;
+    flex-direction:row;
+    flex-flow:row-reverse;
+    justify-content:flex-end;
+    padding: 200px;
+}
+
+.comp{
+    display: flex;
+    gap: 10px;
+    row-gap: 10px
+    justify-content: flex-end;
+}
